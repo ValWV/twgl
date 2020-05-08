@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!-- this file is auto-generated from README.md. Do not edited directly -->
+<!--
+@license twgl.js 4.15.1 Copyright (c) 2015, Gregg Tavares All Rights Reserved.
+Available via the MIT license.
+see: http://github.com/greggman/twgl.js for details
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Language" content="en">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta property="og:title" content="TWGL.js, a tiny WebGL helper library" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="http://twgljs.org/resources/images/twgljs.png" />
+<meta property="og:description" content="TWGL.js, a tiny WebGL helper library" />
+<meta property="og:url" content="http://twgljs.org" />
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@greggman">
+<meta name="twitter:creator" content="@greggman">
+<meta name="twitter:domain" content="twgljs.org">
+<meta name="twitter:title" content="TWGL.js">
+<meta name="twitter:url" content="http://twgljs.org">
+<meta name="twitter:description" content="TWGL.js, a tiny WebGL helper library">
+<meta name="twitter:image:src" content="http://twgljs.org/resources/images/twgljs.png">
+
+<link rel="stylesheet" href="./css/main.css" type="text/css">
+
+<link href="/resources/images/twgljs-icon.png" rel="shortcut icon" type="image/png">
+</head>
+
+<body cz-shortcut-listen="true">
+
+        <div id="main-container" class="">
+          <div id="page-transitioner">
+        <canvas width="1920" height="587" style="width: 1536px; height: 470px;"></canvas>
+      </div>
+      
+          <div id="scroll-translator" style="transform: translate3d(0px, -1.05867px, 0px);">
+            <div class="inline-logo">
+        <a href="/" data-link="/" data-transition="true">
+          
+        </a>
+      </div>
+      
+      
+            <div id="page-container">
+              
+      
+      
+      <article id="home" class="dark-bg">
+        <header id="intro" data-ref="intro">
+          <div transition-group="" data-transition-group-delay="1000">
+            <h1><span transition-child=""><span class="vertical-reveal-outer"><span class="vertical-reveal-inner visible">Сайт</span></span></span> <br class="mobile-only"><span transition-child=""><span class="vertical-reveal-outer"><span class="vertical-reveal-inner visible">на</span></span></span> <br class="mobile-only"><span transition-child=""><span class="vertical-reveal-outer"><span class="vertical-reveal-inner visible">обслуживании.</span></span></span> <br class="mobile-only">
+        
+            </h1>
+      
+          </div>    
+      
+          <div id="intro-canvas-container">
+            <canvas id="intro-canvas" width="1152" height="1152" style="width: 921.6px; height: 921.6px;"></canvas>
+          </div>
+        </header>
+      
+      
+      
+      
+        
+      
+      
+      
+      </article>
+      
+            </div>
+          </div>
+        </div>
+        <div id="scroller">
+      
+        </div>
+      
+      
+       
+      
+      </body>
+
+
+
+<script id="vs" type="notjs">
+attribute vec4 a_position;
+
+uniform mat4 u_matrix;
+
+void main(void) {
+  gl_Position = u_matrix * a_position;
+}
+</script>
+<script id="fs" type="notjs">
+precision mediump float;
+
+uniform vec4 u_color;
+
+void main(void)
+{
+    gl_FragColor = u_color;
+}
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="./3rdparty/prettify.js"></script>
+<script defer src="https://js.statickit.com/statickit.js"></script>
+
+<script src="./main.min.js"></script>
+<script src="https://cdn.webglstats.com/stat.js" defer="defer" async="async"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-61260681-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>
+
+
